@@ -17,11 +17,16 @@ header {
 }
 
 .wrapper div {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.location b {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.location {
+    font-family: 'Open Sans', sans-serif;
+}
 .logo span {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -32,12 +37,36 @@ header {
     color: #FFB30E;
 }
 
-.logo span.orange {
-    color: #F17228;
+.buttons img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    margin-bottom: -3px;
 }
+.buttons span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.buttons button img {
+    width: 16px;
+    height: 18px;
+    text-align: center;
+}
+.buttons button {
+    padding: 14px 24px;
+    margin-left: 5px;
+    background-color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFB800;
+    font-size: 18px;
+    box-shadow: 0 5px 10px rgba(255, 174, 0, 0.26), 0 20px 40px rgba(255, 174, 0, 0.29);
+    border-radius: 8px;
+    border: none;
 
-.buttons {
-    /*float: right;*/
+
+
 }
 
 .main {
@@ -45,49 +74,7 @@ header {
     height: 661px;
     background-color: #fccd23;
 }
-.name {
-    display: flex;
-    list-style-type: none;
-}
-.food {
-    /*margin-left: 259.5px;*/
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    /*width: 60.81px;*/
-    /*height: 36.77px;*/
-  color: #F17228;
-    font-size: 31.11px;
-    font-style: normal;
-    text-align: center;
-}
-.waGon {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    line-height: 1.2em;
-    letter-spacing: -0.02em;
-    width: 90.5px;
-    height: 36.77px;
-    color: #FFB30E;
-    font-size: 31.11px;
-    text-align: center;
-}
-.deliver {
-    width: 83px;
-    height: 18px;
-    font-size: 18px;
-    line-height: 100%;
-    color: #424242;
-    text-align: center;
-}
-.marker {
-    width: 14px;
-    height: 25px;
-    font-weight: 900;
-    text-align: center;
-    color: #FFB30E;
-    line-height: 25.2px;
-}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
