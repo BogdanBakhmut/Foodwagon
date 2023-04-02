@@ -1,0 +1,27 @@
+ .header {
+    width: 1920px;
+    height: 78px;
+    background-color: #FFF;
+}
+.container {
+    margin: 0 auto;
+}
+.main {
+    width: 1920px;
+    height: 661px;
+    background-color: #fccd23;
+}
+.name {
+    display: flex;
+}
+.food {
+    width: 60.81px;
+    height: 36.77px;
+  color: #F17228;
+    font-size: 31.11px;
+    font-style: normal;
+}
+.waGon {
+    color: #FFB30E;
+}
+
