@@ -69,12 +69,52 @@ header {
 
 }
 
-.main {
-    width: 1920px;
-    height: 661px;
+.banner {
+    width: 100%;
+    /*height: 661px;*/
     background-color: #fccd23;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+.container {
+    max-width: 1200px;
+    min-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+.banner-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    min-height: 640px;
+    align-items: center;
+}
+.img-wrapper {
+    margin-top: auto;
+    width: 497px;
+    /*height: 497px;*/
+    /*margin-left: auto;*/
+}
+.banner-content {
+    width: 70%;
+}
+.img-wrapper img {
+/*display: block;*/
+    vertical-align: middle;
 }
 
+.radio {
+    appearance: none;
+}
+.radio:checked + span {
+    color: blue;
+}
+.banner-form {
+    background: #FFFFFF;
+    padding: 24px;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
