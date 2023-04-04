@@ -6,43 +6,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fw.css">
 </head>
 <body>
 <header>
     <div class="wrapper">
         <div class="logo">
-            <img src="Logo.svg" alt="">
+            <img src="Logo1.svg" alt="">
         </div>
 
         <div class="location">
-            <b>Deliver to:</b>
-            <img src="map-marker-alt.png" class="marker" alt="">
-            Current Location
-            <b>Mohammadpur Bus Stand, Dhaka</b>
+            <span><b>Доставити до:</b> <img src="map-marker-alt.png" class="marker" alt=""> Поточне місцезнаходження <b>Mohammadpur Bus Stand, Dhaka</b></span>
         </div>
 
         <div class="buttons">
             <img src="Search.png" alt="">
-            <span>Search food</span>
+            <span>Пошук їжі</span>
 <!--            <img src="user.png" alt="">-->
             <button>
                 <img src="user.png" alt="">
-                Login
+                Увійти
             </button>
         </div>
-
-
-       <!-- <div class="nav">
-            <ul class="name">
-                <li class="food">food</li>
-                <li class="waGon">waGon</li>
-                <li class="deliver">Deliver to:</li>
-
-                <li class="Current Location">Current Location</li>
-                <li class="Mohammadpur Bus Stand, Dhaka">Mohammadpur Bus Stand, Dhaka</li>
-            </ul>
-        </div>-->
     </div>
 </header>
 
@@ -50,20 +41,28 @@
     <div class="container">
         <div class="banner-inner">
             <div class="banner-content">
-                <h2 class="banner-title">Are you starving?</h2>
-                <p class="banner-text">Within a few clicks, find meals that are accessible near you</p>
+                <h2 class="banner-title">Ви голодуєте?</h2>
+                <div class="banner-little-text">
+                    <p class="banner-text">Кількома клацаннями миші знайдіть страви, доступні поблизу вас</p>
+                </div>
+
                 <form class="banner-form">
                     <label>
                         <input class="radio" type="radio" value="delivery" name="type">
-                        <span>Delivery</span>
+                        <span>Доставка</span>
                     </label>
                     <label>
                         <input class="radio" type="radio" value="pickup" name="type">
-                        <span>Pickup</span>
+                        <span>Самовивіз</span>
                     </label>
                     <div class="address">
-                        <input class="address-input" type="text" placeholder="Enter Your Address">
-                        <button class="address-button">Find Food</button>
+                        <div class="search-box">
+                            <img src="Icon.png" alt="">
+                            <label>
+                                <input class="address-input" type="text" placeholder="Введіть свою адресу">
+                            </label>
+                        </div>
+                        <button class="address-button">Знайти їжу</button>
                     </div>
                 </form>
             </div>
