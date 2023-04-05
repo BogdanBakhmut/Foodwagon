@@ -22,13 +22,12 @@
         </div>
 
         <div class="location">
-            <span><b>Доставити до:</b> <img src="map-marker-alt.png" class="marker" alt=""> Поточне місцезнаходження <b>Mohammadpur Bus Stand, Dhaka</b></span>
+            <span><b>Доставити до: </b> <img src="map-marker-alt.png" class="marker" alt="">  Поточне місцезнаходження <b>Mohammadpur Bus Stand, Dhaka</b></span>
         </div>
 
         <div class="buttons">
             <img src="Search.png" alt="">
             <span>Пошук їжі</span>
-<!--            <img src="user.png" alt="">-->
             <button>
                 <img src="user.png" alt="">
                 Увійти
@@ -49,12 +48,17 @@
                 <form class="banner-form">
                     <label>
                         <input class="radio" type="radio" value="delivery" name="type">
-                        <span>Доставка</span>
+                        <span class="bike-delivery">
+                            <img src="bike-delivery.svg" alt="">
+                            Доставка</span>
                     </label>
                     <label>
                         <input class="radio" type="radio" value="pickup" name="type">
-                        <span>Самовивіз</span>
+                        <span class="pickup">
+                            <img src="pickup.svg" alt="">
+                            Самовивіз</span>
                     </label>
+                    <div class="line" style="height: 1px;width: 100%;background-color:#eeeeee"></div>
                     <div class="address">
                         <div class="search-box">
                             <img src="Icon.png" alt="">
@@ -62,7 +66,9 @@
                                 <input class="address-input" type="text" placeholder="Введіть свою адресу">
                             </label>
                         </div>
-                        <button class="address-button">Знайти їжу</button>
+                        <button class="address-button">
+                            <img src="findfood.svg" alt="">
+                            Знайти їжу</button>
                     </div>
                 </form>
             </div>
